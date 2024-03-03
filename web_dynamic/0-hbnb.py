@@ -23,7 +23,7 @@ def close_database_connection(error):
     storage.close()
 
 
-@app.route('/hbnb', strict_slashes=False)
+@app.route('/0-hbnb', strict_slashes=False)
 def display_hbnb():
     """
     Display the HBNB web page.
